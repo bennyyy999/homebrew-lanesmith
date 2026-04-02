@@ -1,16 +1,16 @@
 class LanesmithCli < Formula
   desc "Bridge daemon for LaneSmith — run terminal commands from the sandboxed app"
   homepage "https://github.com/bennyyy999/LaneSmith-CLI"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bennyyy999/homebrew-lanesmith/releases/download/v#{version}/lanesmith-cli-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "00cbb342ad6debd14b5f05d1ca6466828eab1a6744e6db219638605543d3ccd5"
+      sha256 "75c80f521f68e3f1b5ed3a727a6fedc7ed890e0746f5c4b03f1fb2ea12bd8de6"
     elsif Hardware::CPU.intel?
       url "https://github.com/bennyyy999/homebrew-lanesmith/releases/download/v#{version}/lanesmith-cli-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "3f706f9b5caa0539fe0605ede651c8e98c021b447cdd62e12dcfa018e27d9eb5"
+      sha256 "e1ff3446764dc7368d36b2f7f69b8a1e23d11c8a7a9a077038a85bc253d97b1d"
     end
   end
 
