@@ -6,11 +6,11 @@ class LanesmithCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bennyyy999/LaneSmith-CLI/releases/download/v#{version}/lanesmith-cli-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "d43270c90a3e2195890e2ae4f32057ef5349c1871fd5fc0874ab6d9a41c89848"
+      url "https://github.com/bennyyy999/homebrew-lanesmith/releases/download/v#{version}/lanesmith-cli-v#{version}-aarch64-apple-darwin.tar.gz"
+      sha256 "00cbb342ad6debd14b5f05d1ca6466828eab1a6744e6db219638605543d3ccd5"
     elsif Hardware::CPU.intel?
-      url "https://github.com/bennyyy999/LaneSmith-CLI/releases/download/v#{version}/lanesmith-cli-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "3175c39349a24be8a6e0b93fa9393e4f66782766f00dca021a64cce61a10dadb"
+      url "https://github.com/bennyyy999/homebrew-lanesmith/releases/download/v#{version}/lanesmith-cli-v#{version}-x86_64-apple-darwin.tar.gz"
+      sha256 "3f706f9b5caa0539fe0605ede651c8e98c021b447cdd62e12dcfa018e27d9eb5"
     end
   end
 
