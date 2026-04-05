@@ -1,5 +1,11 @@
 # homebrew-lanesmith
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bennyyy999_homebrew-lanesmith&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bennyyy999_homebrew-lanesmith)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=bennyyy999_homebrew-lanesmith&metric=bugs)](https://sonarcloud.io/summary/new_code?id=bennyyy999_homebrew-lanesmith)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=bennyyy999_homebrew-lanesmith&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=bennyyy999_homebrew-lanesmith)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=bennyyy999_homebrew-lanesmith&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=bennyyy999_homebrew-lanesmith)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=bennyyy999_homebrew-lanesmith&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=bennyyy999_homebrew-lanesmith)
+
 Homebrew tap for [LaneSmith CLI](https://github.com/bennyyy999/LaneSmith-CLI) — the bridge daemon that lets the [LaneSmith](https://lanesmith.dev) macOS app run terminal commands outside Apple's sandbox.
 
 ## Install
